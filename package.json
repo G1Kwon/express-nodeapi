@@ -4,7 +4,10 @@
   "description": "nodeapi with express",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon src/main.js"
+  },
+  "engines": {
+    "node": "14.18.1"
   },
   "author": "G1Kwon",
   "dependencies": {
@@ -18,6 +21,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-node": "^11.1.0",
+    "nodemon": "^2.0.15",
     "prettier": "^2.4.1",
     "typescript": "^4.5.2"
   }
